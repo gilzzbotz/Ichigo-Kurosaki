@@ -265,9 +265,7 @@ case 'donasi': case 'sewa': case 'sewabot': {
   let donasi = `Scan QR Above To Donate
 
 Rental Bot Prices :
-💰 10k/week
-💰 25k/month
-💰 100k/year`
+💰 8K / PERMANEN
   let but = [{"quickReplyButton": {"displayText": "Owner 👦","id": "owner"}}]
   ichi.sendButtonImg(m.chat, donasi, global.ownerName, global.donasi, but)
   }
